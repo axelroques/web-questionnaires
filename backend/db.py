@@ -3,6 +3,7 @@ from pathlib import Path
 import sqlite3
 
 DATABASE = str(Path(__file__).parent.parent / 'data/web-questionnaires.db')
+Path(DATABASE).parent.mkdir(parents=True, exist_ok=True)
 
 
 def get_db():
