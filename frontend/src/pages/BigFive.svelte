@@ -19,8 +19,6 @@
     function startQuestionnaire() {
         startTime = Date.now();
         started = true;
-
-        // Log start
         responseLog.push({ t: startTime, q: null, v: null });
     }
 

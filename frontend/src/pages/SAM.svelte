@@ -18,8 +18,6 @@
 
     function startQuestionnaire() {
         startTime = Date.now();
-
-        // Log start
         responseLog.push({ t: startTime, line: null, imagePos: null, });
     }
 

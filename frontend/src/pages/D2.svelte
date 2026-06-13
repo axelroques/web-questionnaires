@@ -23,8 +23,6 @@
         startTime = Date.now();
         started = true;
         startLine(0);
-
-        // Log start
         responseLog.push({
             t: startTime,
             line: null,

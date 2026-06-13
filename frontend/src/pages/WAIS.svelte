@@ -21,8 +21,6 @@
 
     function startQuestionnaire() {
         startTime = Date.now();
-
-        // Log start
         responseLog.push({
             t: startTime,
             order: null,
